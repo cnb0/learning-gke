@@ -1,6 +1,6 @@
 # Best practices for building containers
 
-
+```
 - Package a single app per container
 - Properly handle PID 1, signal handling, and zombie processes
     - In the context of containers, PIDs and Linux signals create two problems to consider.
